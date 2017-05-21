@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int num1 = 0, num2 = 0, result = 0;
 
@@ -22,5 +22,5 @@ void main() {
 
 	cout << "El resultado es: " << result << endl;
 
-	system("PAUSE");
+	return 0;
 }

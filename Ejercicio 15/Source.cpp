@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int TipoInfrac[20] = {};
 	int ValorMulta[20] = {};
@@ -51,5 +51,5 @@ void main() {
 		cout << "Clausurar fábrica" << endl;
 	}
 
-	system("PAUSE");
+	return 0;
 }

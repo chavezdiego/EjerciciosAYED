@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int M = 0, mult3 = 0, mult5 = 0;
 
@@ -23,5 +23,5 @@ void main() {
 			cout << mult3 << endl;
 		}
 	}
-	system("Pause");
+	return 0;
 }

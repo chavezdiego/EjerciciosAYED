@@ -1,11 +1,10 @@
 #include <iostream>
-#include <stdlib.h>
 
 using namespace std;
 
-void main() {
+int main() {
 
-	int mes = 0, año = 0;
+	int mes = 0, anio = 0;
 
 	cout << "Ingresar un mes: " << endl;
 
@@ -13,15 +12,15 @@ void main() {
 
 	cout << "Ingresar un año: " << endl;
 
-	cin >> año;
+	cin >> anio;
 
 	// Meses que tienen 30 dias   (4,6,9,11)
 
 	// Meses que tienen 31 dias   (1,3,5,7,8,10,12)
-
 	
 	if (mes == 4 || mes == 6 || mes == 9 || mes == 11)
 	{
+
 		cout << "El mes " << mes << " tiene 30 dias." << endl;
 	}
 	else
@@ -34,7 +33,7 @@ void main() {
 		{
 			if (mes == 2)
 			{
-				if (año % 4 == 0)
+				if ((anio % 4) == 0)
 				{
 					cout << "El mes " << mes << " tiene 29 dias." << endl;
 				}
@@ -50,5 +49,5 @@ void main() {
 		}
 	}
 
-	system("PAUSE");
+	return 0;
 }

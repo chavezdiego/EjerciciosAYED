@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int i = 0;
 	int Sminimo = 0, Smedio = 0, Salto = 0, SmuyAlto = 0;
@@ -12,7 +12,6 @@ void main() {
 
 	do
 	{
-		system("cls");
 
 		cout << "Ingrese un sueldo: " << endl;
 
@@ -48,5 +47,5 @@ void main() {
 	cout << "Cantidad de empleados con sueldo alto son: " << Salto << endl;
 	cout << "Cantidad de empleados con sueldo muy alto son: " << SmuyAlto << endl;
 
-	system("Pause");
+	return 0;
 }

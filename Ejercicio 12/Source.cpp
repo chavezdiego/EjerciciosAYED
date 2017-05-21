@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int sumatoria = 0;
 
@@ -16,5 +16,6 @@ void main() {
 
 	cout << "La sumatoria total es: " << sumatoria << endl;
 
-	system("PAUSE");
+	return 0;
+
 }

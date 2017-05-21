@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void main (){
+int main (){
 
 	int valor1 = 0, valor2 = 0;
 
@@ -21,6 +21,5 @@ void main (){
 		cout << "El numero mayor entre los dos es: " << valor2 << endl;
 	}
 
-	cin.get();
-	cin.get();
+	return 0;
 }

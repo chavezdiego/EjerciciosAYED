@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void main(){
+int main(){
 
 	int valor = 0;
 	float resultA = 0;
@@ -19,7 +19,6 @@ void main(){
 
 	cout << "La septima parte de valor/5 es: " << resultA / 7 << endl;
 
-	cin.get();
-	cin.get();
+	return 0;
 
 }

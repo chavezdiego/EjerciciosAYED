@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int i = 1, pos1 = 0, pos2 = 0, num = 0;
 	int nummax = 0, nummin = 500;
@@ -41,5 +41,5 @@ void main() {
 
 	cout << "Su posicion es: " << pos2 << endl;
 
-	system("pause");
+	return 0;
 }

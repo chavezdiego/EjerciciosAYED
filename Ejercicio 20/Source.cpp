@@ -1,9 +1,8 @@
 #include <iostream>
-#include <stdlib.h>
 
 using namespace std;
-
-void main() {
+	
+int main() {
 
 	int num1 = 0, num2 = 0;
 
@@ -19,5 +18,5 @@ void main() {
 	}
 	cout << "El numero mayor es: " << num1 << endl;
 
-	system("pause");
+	return 0;
 }

@@ -1,9 +1,8 @@
 #include <iostream>
-#include <stdlib.h>
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int	edad = 0;
 
@@ -30,6 +29,6 @@ void main() {
 		cout << "Es MAYOR." << endl;
 	}
 
-	system("PAUSE");
+	return 0;
 
 }

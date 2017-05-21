@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int fecha1 = 0, fecha2 = 0;
 
@@ -29,7 +29,6 @@ void main() {
 		cout << "La fecha mas reciente es: " << fecha2 << endl;
 	}
 
-	cin.get();
-	cin.get();
+	return 0;
 	
 }

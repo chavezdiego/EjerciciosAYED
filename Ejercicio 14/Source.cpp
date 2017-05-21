@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
 	int num[50] = {};
 	int c, acumulador=0, cont=0, prom = 0, acumulador2 = 0;
@@ -46,5 +46,5 @@ void main() {
 
 	cout << "La suma de los numeros menores a -10 es: " << acumulador2 << endl;
 
-	system("PAUSE");
+	return 0;
 }
