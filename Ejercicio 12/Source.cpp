@@ -1,0 +1,20 @@
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+void main() {
+
+	int sumatoria = 0;
+
+	for (int i = 0; i < 100; i++)
+	{
+		cout << "Numero natural: " << i << endl;
+	
+		sumatoria += i;  // sumatoria = sumatoria + i
+	}
+
+	cout << "La sumatoria total es: " << sumatoria << endl;
+
+	system("PAUSE");
+}
