@@ -10,8 +10,7 @@ int main() {
 	int Sminimo = 0, Smedio = 0, Salto = 0, SmuyAlto = 0;
 	float sueldos[50] = {};
 
-	do
-	{
+	do {
 
 		cout << "Ingrese un sueldo: " << endl;
 
