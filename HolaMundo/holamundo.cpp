@@ -12,7 +12,7 @@ int main()
 	{
 		for (int e = 0; e < 5; ++e)
 		{
-			cout << matriz[i][e] << "      ";
+			cout << matriz[i][e] << "      " << "Hola mundo";
 		}
 
 		cout << endl << endl;
