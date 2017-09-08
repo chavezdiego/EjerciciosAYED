@@ -4,14 +4,11 @@ using namespace std;
 
 int sumar(int, int);
 
-int main()
-{
+int main () {
 	int matriz[3][5] = {};
 
-	for (int i = 0; i < 3; ++i)
-	{
-		for (int e = 0; e < 5; ++e)
-		{
+	for (int i = 0; i < 3; ++i) {
+		for (int e = 0; e < 5; ++e) {
 			cout << matriz[i][e] << "      " << "Hola mundo";
 		}
 
@@ -21,7 +18,6 @@ int main()
 	return 0;
 }
 
-int sumar(int num1, int num2)
-{
+int sumar(int num1, int num2) {
 	return num1 + num2;
 }
